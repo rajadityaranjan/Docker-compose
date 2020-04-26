@@ -80,7 +80,7 @@ Using Docker to set-up a WebApp called **Joomla** with **MYSQL** as a database.
   * Now all that is left is to start the webserver with a database`docker-compose up` to complete the setup.
 
 **Note**- If you followed everything whether with indentation in YAML file, with supported compatibility between webserver and mysql there shouldn't be any problems.
-![Docker Compose Up](Screenshots/DC.png)
+![Docker Compose Up](Screenshots/123.png)
 ## 7. Joomla Started:
   * Got to your browser and type `172.17.0.3:80` or `192.168.43.124:8080` and done you will be able to see your Joomla WebApp. But if you want to use any other port then you have to mention it in your docker-compose file.
 ![Joomla Web Page](Screenshots/DC_UP.png)
@@ -88,7 +88,8 @@ Using Docker to set-up a WebApp called **Joomla** with **MYSQL** as a database.
    * After using docker compose up now in one command `docker-compose up` you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start`. 
 ![Docker-compose-start-stop](Screenshots/DC-1.png)
 ## 9. Docker-compose down:
-  * You can easily stop the containers using `docker compose down` command.
+  * You can easily stop the containers using `docker compose down` command.See below image.
+![Docker Down](Screenshots/124.png)
 ## MYSQL DATABASE AUTO UPDATION:
 You can easily know the fields required in the webserver after successfully logging the page. See the below image:
 ![Docker-mysql](Screenshots/MUA.png)
