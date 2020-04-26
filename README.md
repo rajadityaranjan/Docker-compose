@@ -8,7 +8,7 @@ But part of it can be shared:
 **Note**-The name ADITYA RAJ in the SS is me. ;)
 
 ### Session 1:
-![Docker Session 1](Screenshots/Session1.png | width=100)
+![Docker Session 1](Screenshots/Session1.png=250x250)
 ### Session 2: 
 ![Docker Session 2](Screenshots/Session%202.png)
 ### Session 3: 
