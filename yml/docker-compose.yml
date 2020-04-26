@@ -1,0 +1,32 @@
+version: '3'
+services:
+  joomladb:
+        image: mysql:5.7
+        volumes:
+          - mysql_storage:/var/lib/mysql
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_USER: aditya
+          MYSQL_PASSWORD: redhat
+          MYSQL_DATABASE: JOOM
+
+  JOOMOS:
+        image: joomla:3.9
+        volumes:
+          - joomlav:/var/www/html
+        restart: always
+        depends_on: 
+          - joomladb
+        ports:
+          - 8080:80
+        environment:
+          JOOMLA_DB_HOST: joomladb
+          JOOMLA_DB_USER: aditya
+          JOOMLA_DB_PASSWORD: redhat
+          JOOMLA_DB_NAME: JOOM
+
+volumes:
+   mysql_storage:
+   joomlav:
+
