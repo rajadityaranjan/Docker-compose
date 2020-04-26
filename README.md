@@ -24,6 +24,10 @@ So coming on to my project------
 # DOCKER PROJECT ON SETTING UP JOOMLA WITH MYSQL with a single command.
 Using Docker to set-up a WebApp called **Joomla** with **MYSQL** as a database.
 
+## About the tools used:
+Joomla is a free and open source content management system (CMS), used for creating dynamic websites. It is the second most used CMS in the world (after WordPress), and it uses a model-view-controller (MVC) framework that is independent of the system itself.
+
+Written in PHP, Joomla connects to a variety of database backends, including MySQL and PostgreSQL, and its features include the ability to create and manage blogs, RSS feeds, caching, printable pages, searching, news flashes and support for language localization. Joomla also provides more than 8,000 extensions (both free and commercial), and others are available through third-party sources.
 ## 1. Pre-configurations needed:
 * There is not exactly any technicalities issue with using docker over other compatible OS(prefer documentation to know where it can work on), while I used **RedHat Enterprise Linux Version 8(RHEL 8)**. Although the commands mentioned here may not be supported over other Linux versions, Windows Server, etc. I will try my best to explain the terms and commands used.
 ## 2. Setting up the required things:
